@@ -109,7 +109,7 @@
             			</div>
             		</div>
             	</div>
-            	<div class="row gutters-10">
+            	<!-- <div class="row gutters-10">
             		<div class="col-md-4">
             			<div class="card">
                     <div class="card-header">
@@ -267,7 +267,7 @@
                             </div>
                         </div>
                     </div>
-            	</div>
+            	</div> -->
             	<div class="row gutters-10">
 	            	<div class="col-md-5">
 	            		<div class="card">
