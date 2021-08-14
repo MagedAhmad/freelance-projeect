@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="row gutters-10">
-    <div class="col-lg-6">
+    <div class="col-lg-12">
         <div class="row gutters-10">
             <div class="col-6">
                 <div class="bg-grad-1 text-white rounded-lg mb-4 overflow-hidden">
@@ -63,7 +63,7 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-6">
+    <!-- <div class="col-lg-6">
         <div class="row gutters-10">
             <div class="col-6">
                 <div class="card">
@@ -86,7 +86,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 <div class="row gutters-10">
     <div class="col-md-8">
