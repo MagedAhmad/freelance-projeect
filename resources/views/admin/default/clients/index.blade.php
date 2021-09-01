@@ -35,7 +35,7 @@
                             <th>#</th>
                             <th>{{translate('Name')}}</th>
                             <th data-breakpoints="md">{{translate('Email')}}</th>
-                            <th>{{translate('Package')}}</th>
+                            <!-- <th>{{translate('Package')}}</th> -->
                             <th data-breakpoints="md">{{translate('Verification Status')}}</th>
                             <th>{{translate('Total Spent')}}</th>
                             <th class="text-right">{{translate('Options')}}</th>
@@ -52,13 +52,13 @@
                                     <td>
                                         {{$client->user->email}}
                                     </td>
-                                    <td>
+                                    <!-- <td>
                                         @if ($client->user->userPackage != null && $client->user->userPackage->package != null)
                                             {{$client->user->userPackage->package->name}}
                                         @else
                                             {{translate('Package Removed')}}
                                         @endif
-                                    </td>
+                                    </td> -->
                                     @php
                                         $verification = \App\Models\Verification::where('user_id', $client->user_id)->where('role_id', '3')->first();
                                     @endphp
